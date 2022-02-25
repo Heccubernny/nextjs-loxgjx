@@ -8,7 +8,7 @@ const path = require('path');
 const io = require('socket.io')(http);
 const cookieParser = require('cookie-parser');
 const handle = require('./server/handlers');
-
+const db = require('./server/models');
 // const SocketServer = require('./socketServer');
 const corsOptions = {
   Crediential: 'true',
