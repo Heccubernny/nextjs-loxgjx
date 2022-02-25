@@ -12,3 +12,6 @@ mongoose.connect(URI);
 module.exports.User = require('./userModel');
 
 
+const choices = [
+  {question:'Do you shop?', }
+]
